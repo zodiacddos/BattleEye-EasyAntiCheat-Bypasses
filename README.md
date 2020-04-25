@@ -1,5 +1,5 @@
 <h2><span style="color: #0000ff;"><em><strong>Unpacking BattleEye - Easy AntiCheat - Article 1</strong></em></span></h2>
-<p><br /><span style="color: #ff9900;">Introduction</span></p>
+<p><br /><strong><span style="color: #ff9900;">Introduction</span></strong></p>
 <p>Hello everyone, this is the first article in a series of articles about unpacking and reversing BattleEye - Easy AntiCheat, the first few article will be about unpacking BattleEye - Easy AntiCheat application. This articles are work-in-progress articles.</p>
 <p>Our target, the BattleEye - Easy AntiCheat application, is packed with VMProtect, we can figure it out after searching for past researches about BattleEye - Easy AntiCheat unpacking.</p>
 <p>So what is VMProtect?, VMProtect is a commercial software that offers packing and protection for your application. VMProtect is a virtual machine packer, this is not like regular packers that compress the data of the application, and then decompress it in run time using the stub. The virtual machine packing is creating a virtual CPU with custom opcodes, and convert your application to be able to run on the created CPU. The VM based protection, is used to make the reverse engineering of the application extremely hard, because you need to find and reverse each opcode to know exactly what the application is doing.</p>
